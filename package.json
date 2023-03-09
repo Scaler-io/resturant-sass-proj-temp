@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:scss": "node-sass -o src/styles/css src/styles/scss/main.scss \\ src/styles/css src/styles/scss/_base.scss \\ src/styles/css src/styles/scss/_layout.scss \\ src/styles/css src/styles/scss/_component.scss -w"
   },
   "keywords": [],
   "author": "",
